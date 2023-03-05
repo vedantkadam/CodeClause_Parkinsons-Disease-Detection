@@ -7,5 +7,31 @@
 
 - DataSet Link - [Dataset](https://www.kaggle.com/datasets/dipayanbiswas/parkinsons-disease-speech-signal-features) 
 
-## Languages Stacks Used
-- Python
+## Library Used
+- Numpy
+- Pandas
+- sklearn
+
+## Models Used
+```
+models = {
+    '           Linear SVM': LinearSVC(),
+    '    Gradient Boosting': GradientBoostingClassifier(),
+    '        Decision Tree': DecisionTreeClassifier(),
+    '        Random Forest': RandomForestClassifier(),
+    ' KNeighborsClassifier': KNeighborsClassifier(),
+    '   Bagging Classifier': BaggingClassifier(),
+    '                  svc':       SVC()
+}
+```
+## Model Accuracy
+```
+Linear SVM: 85.53%
+    Gradient Boosting: 82.24%
+        Decision Tree: 78.29%
+        Random Forest: 82.89%
+ KNeighborsClassifier: 82.24%
+   Bagging Classifier: 82.89%
+                  svc: 83.55%
+```
+
