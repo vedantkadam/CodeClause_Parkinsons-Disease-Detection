@@ -12,26 +12,11 @@
 - Pandas
 - sklearn
 
-## Models Used
-```
-models = {
-    '           Linear SVM': LinearSVC(),
-    '    Gradient Boosting': GradientBoostingClassifier(),
-    '        Decision Tree': DecisionTreeClassifier(),
-    '        Random Forest': RandomForestClassifier(),
-    ' KNeighborsClassifier': KNeighborsClassifier(),
-    '   Bagging Classifier': BaggingClassifier(),
-    '                  svc':       SVC()
-}
-```
+
 ## Model Accuracy
 ```
-Linear SVM: 85.53%
-    Gradient Boosting: 82.24%
-        Decision Tree: 78.29%
-        Random Forest: 82.89%
- KNeighborsClassifier: 82.24%
-   Bagging Classifier: 82.89%
-                  svc: 83.55%
+Accuracy score of training data :  0.8846153846153846
+     
+Accuracy score of test data :  0.8717948717948718
 ```
 
